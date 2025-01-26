@@ -7,7 +7,7 @@ body{
     margin: 0; /* Removes default body margin */
 }
 .container {
-    max-width: 18em; /* The container takes 20% of its parent (or viewport) width */
+    max-width: 15em; /* The container takes 20% of its parent (or viewport) width */
     max-height: 70vh;
     background-color: white;
     text-align: center; /* Center align the content inside */
