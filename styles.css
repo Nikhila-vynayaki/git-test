@@ -1,0 +1,52 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers horizontally */
+    height: 100vh; /* Ensures the container takes up full viewport height */
+    margin: 0; /* Removes default body margin */
+}
+.container {
+    max-width: 18em; /* The container takes 20% of its parent (or viewport) width */
+    max-height: 70vh;
+    background-color: white;
+    text-align: center; /* Center align the content inside */
+    border-radius: 10px; /* Optional: Adds rounded corners for aesthetics */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1em;
+}
+
+.qr {
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.qr img {
+    width: 100%; /* Image takes up the full width of the .qr block */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes inline spacing issues */
+    border-radius: 10px;
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1em;
+}
